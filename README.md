@@ -1,4 +1,0 @@
-smplugins
-=========
-
-SM Plugins
