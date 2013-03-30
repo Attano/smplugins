@@ -21,7 +21,7 @@ public OnPluginStart()
     
 	hCLunge_ActivateAbility = DHookCreate(LungeActivateAbilityOffset, HookType_Entity, ReturnType_Void, ThisPointer_CBaseEntity, CLunge_ActivateAbility);
 	DHookAddEntityListener(ListenType_Created, OnEntityCreated);
-	
+
 	HookEvent("player_jump", OnPlayerJump);
 }
 
