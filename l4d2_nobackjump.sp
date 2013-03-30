@@ -7,7 +7,7 @@ new Float:fSuspectedBackjump[MAXPLAYERS + 1];
 
 public Plugin:myinfo =
 {
-    name        = "L4D2 No Backjump",
+    	name        = "L4D2 No Backjump",
 	author      = "Visor",
 	description = "Gah",
 	version     = "1.0",
@@ -16,7 +16,7 @@ public Plugin:myinfo =
 
 public OnPluginStart()
 {
-    new Handle:gameConf = LoadGameConfigFile("l4d2_nobackjump"); 
+    	new Handle:gameConf = LoadGameConfigFile("l4d2_nobackjump"); 
 	new LungeActivateAbilityOffset = GameConfGetOffset(gameConf, "CLunge_ActivateAbility");
     
 	hCLunge_ActivateAbility = DHookCreate(LungeActivateAbilityOffset, HookType_Entity, ReturnType_Void, ThisPointer_CBaseEntity, CLunge_ActivateAbility);
