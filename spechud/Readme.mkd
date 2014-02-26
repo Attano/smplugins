@@ -1,0 +1,18 @@
+#L4D2 Advanced Spectator HUD#
+
+##Compilation Dependencies##
+
+1. Make sure to put `l4d2_weapon_stocks.inc` in your include folder.
+2. Make sure to put [ReadyUp](https://github.com/CanadaRox/l4d2readyup "ReadyUp")'s include files in the include folder as well.
+3. Find `colors.inc` on *Alliedmods* and put it in the include folder.
+
+##Running Dependencies##
+
+1. You will need **CanadaRox's ReadyUp**. Include `spechud.smx` strictly AFTER `readyup.smx` & `pause.smx`.
+2. You will need to update your `confoglcompmod.smx`. This is needed to avoid conflicts with legacy HUDs. Grab it from the latest ProMod package.
+3. Make sure you have the latest `L4D2Direct` gamedata. Don't take the one from the official repo; it's no longer mantained. Grab it from the latest ProMod package instead.
+
+##Changelog##
+
+**2.8**  
+Initial public release
